@@ -1,0 +1,84 @@
+//
+//
+// Полоски названий
+//
+//
+
+.title-bar {
+  width: 100%;
+  height: 42px;
+  line-height: 42px;
+  padding: 0 20px;
+  opacity: .7;
+  @include border-radius-right(8px);
+  @include clearfix();
+}
+
+.title-bar h1, .title-bar h2 {
+  display: inline-block;
+}
+
+.title-bar h1 span, .title-bar h2 span {
+  font-size: 14px;
+}
+
+.title-bar .text-r {
+  font-size: 18px;
+  float: right;
+}
+
+.title-bar .text-r a {
+  color: #323232;
+  font-size: 13px;
+  &:hover {
+    color: #e84e3e;
+  }
+}
+
+.title-bar .profile-type {
+  width: 224px;
+  height: 42px;
+  float: right;
+  line-height: 42px;
+  color: $color_white;
+  background-color: $color_blue;
+  text-align: center;
+  &:hover{
+    background-color: $color_red;
+  }
+}
+
+.lable-developer {
+  width: 224px;
+  height: 42px;
+  float: right;
+  line-height: 42px;
+  color: $color_white;
+  background-color: $color_red;
+  text-align: center;
+}
+
+.lable-user {
+  @extend .lable-developer;
+  background-color: $color_blue;
+}
+
+
+
+.br-r {
+  border-left: 2px solid $color_red;
+}
+
+.br-b {
+  border-left: 2px solid $color_blue;
+}
+
+.st-title-bar {
+  background-color: #ffffff;
+  box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+}
+
+.st-single-page {
+  background-color: #ffffff;
+  box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+}

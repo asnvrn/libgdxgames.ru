@@ -1,0 +1,195 @@
+.like-portal {
+  width: 264px;
+  height: 124px;
+  float: left;
+  line-height: 124px;
+  background-color: $color_white;
+  box-shadow: $box-shadow-form-elements;
+  @include border-radius(2px);
+}
+
+.block-rewards-empty {
+  width: 100%;
+  height: 42*7px;
+  line-height: 42*7px;
+  font-size: 22px;
+  opacity: .6;
+  text-align: center;
+  background-color: $color_white;
+  box-shadow: $box-shadow-form-elements;
+  @include border-radius(8px);
+}
+
+// Copyright
+
+.cr-bar-txt-left {
+  float: left;
+}
+
+.cr-bar-txt-right {
+  float: right;
+}
+
+// Полоса в профиле
+.informer {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: $color_red;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  opacity: .9;
+  color: $color_white;
+}
+
+// Полоса в профиле
+.bar-in-profile {
+  width: 264*2 +10px;
+  height: 64px;
+  float: right;
+  position: relative;
+  line-height: 64px;
+  background-color: $color-dark;
+  box-shadow: $box-shadow-dark;
+  text-align: right;
+  font-size: $h4;
+  opacity: .9;
+  @include border-radius-top(8px);
+  @include border-radius-bottom(8px);
+}
+
+.bar-in-profile .text {
+  color: $color_white;
+  font-size: 26px;
+  margin-right: 20px;
+
+}
+
+.bar-in-game {
+  @extend .bar-in-profile;
+  float: left;
+  text-align: left;
+}
+
+.bar-in-profile-bottom {
+  @extend .bar-in-profile;
+  float: right;
+  text-align: left;
+  box-shadow: none;
+  opacity: .8;
+}
+
+.bar-in-game .text {
+  color: $color_white;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.infobox-in-profile {
+  width: 264*2+10px;
+  height: 412px;
+  float: right;
+  background-color: $color_white;
+  border: 1px solid lightgray;
+  margin: 10px 0;
+  opacity: .6;
+  text-align: center;
+  padding-top: 190px;
+  font-size: 14px;
+  @include border-radius-top(8px);
+  @include border-radius-bottom(8px);
+}
+
+
+//////////////////////////// Pagination
+
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  font-size: 16px;
+  float: right;
+  margin-bottom: 10px;
+
+}
+.pagination > li {
+  display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: $color_gray;
+  margin-left: -1px;
+  opacity: .8;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: $color_red;
+  border-color: $color_red;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 3;
+  color: #ffffff;
+  background-color: $color_red;
+  border-color: $color_red;
+  cursor: default;
+  opacity: 1;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: #999999;
+  background-color: $color_gray;
+  border-color: $color_gray;
+  cursor: not-allowed;
+}
+
+/////////////////////////////////////
+
+.breadcrumb {
+  background-color: $color_gray;
+}
+
+.container a {
+  color: $color_red;
+}
+
+.btn {
+  color: $color_white !important;
+}
+
+.breadcrumb > .active {
+  color: $color_white;
+}
+
+.site-error {
+  text-align: center;
+  font-size: 16px;
+}

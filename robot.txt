@@ -1,0 +1,26 @@
+User-agent: *
+Disallow: /
+
+#Disallow: /login
+#Disallow: /login/
+#Disallow: /login/*
+
+#Disallow: /logout
+#Disallow: /logout/
+#Disallow: /logout/*
+
+#Disallow: /addgame
+#Disallow: /addgame/
+#Disallow: /addgame/*
+
+#Disallow: /delgame
+#Disallow: /delgame/
+#Disallow: /delgame/*
+
+#Disallow: /devreg
+#Disallow: /devreg/
+#Disallow: /devreg/*
+
+#Disallow: /inside
+#Disallow: /inside/
+#Disallow: /inside/*

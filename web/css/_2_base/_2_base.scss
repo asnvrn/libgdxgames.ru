@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+
+* {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-before: 0;
+  -webkit-padding-after: 0;
+  -webkit-padding-start: 0;
+  -webkit-padding-end: 0;
+  -moz-margin-before: 0;
+  -moz-margin-after: 0;
+  -moz-margin-start: 0;
+  -moz-margin-end: 0;
+  -moz-padding-before: 0;
+  -moz-padding-after: 0;
+  -moz-padding-start: 0;
+  -moz-padding-end: 0;
+}
+
+
+
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: none;
+}
+
+body {
+  font-family: $font-body;
+  font-size: $font-size-body;
+  line-height: $line-height-body;
+  color: $color-gray;
+  background-color: $color_white;
+  background: $bg-body top center repeat;}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased; }
+
+html, body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: bold; }
+
+h1 { font-size: 20px; font-weight: normal; }
+h2 { font-size: 18px; }
+h3 { font-size: 17px; }
+h4 { font-size: $h4; }
+h5 { font-size: 15px; }
+h6 { font-size: 14px; }
+
+p {
+  font-weight: normal;
+  text-indent: 5px; }
+
+a {
+  color: $color-white;
+  text-decoration: none;
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+    text-shadow: $text-shadow-link;
+  }
+}
+
+//
+// Remove most spacing between table cells.
+//
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+input {
+  font-size: 16px;
+  line-height: 32px;
+  box-shadow: $box-shadow-form-elements;
+  background-color: #fffff1;
+}
+
+textarea {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+  overflow: auto;
+  box-shadow: $box-shadow-form-elements;
+}
+
+button {
+  width: 200px;
+  height: 32px;
+  float: right;
+  text-align: center;
+  background-color: $color_white;
+  box-shadow: $box-shadow-form-elements;
+  cursor: pointer;
+  &:hover {
+    background-color: #fafafa;
+  }
+}
+
+.bt-cancel {
+  float: left;
+  background-color: $color_red;
+  color: white;
+  &:hover {
+    background-color: red;
+  }
+}
+
+.bt-add {
+  background-color: green;
+  color: white;
+  &:hover {
+    background-color: $color_green;
+  }
+}

@@ -1,0 +1,22 @@
+.adm-bar-wrap {
+  width: 100%;
+  height: 14px;
+  background-color: #323232;
+  color: #F8F8F8;
+  position: fixed;
+  bottom:  0;
+  z-index: 100;
+}
+
+.adm-bar {
+  width: 980px;
+  height: 14px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.adm-bar a:hover {
+  color: #e84e3e;
+  cursor: pointer;
+  text-shadow: none;
+}

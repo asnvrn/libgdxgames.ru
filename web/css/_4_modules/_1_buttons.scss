@@ -1,0 +1,178 @@
+.btn-link {
+  line-height: 64px;
+  padding: 0 5px;
+}
+
+.btn-link-i50 {
+  height: 64px;
+  padding: 17px 0 0 5px;
+  text-transform: uppercase;
+  &:hover {
+    cursor: pointer;
+    -moz-transition: background-color 0.6s 0s ease;
+    -o-transition: background-color 0.6s 0s ease;
+    -webkit-transition: background-color 0.6s 0s ease;
+  }
+}
+
+.btn-link-i32 {
+  width: 130px;
+  height: 64px;
+  float: left;
+  padding: 25px 0 0 50px;
+  &:hover {
+    cursor: pointer;
+    -moz-transition: background-color 0.6s 0s ease;
+    -o-transition: background-color 0.6s 0s ease;
+    -webkit-transition: background-color 0.6s 0s ease;
+  }
+
+}
+
+.btn-group-out {
+  width: 195px;
+  height: 64px;
+  float: left;
+  padding: 25px 0 0 68px;
+  &:hover {
+    cursor: pointer;
+    -moz-transition: background-color 0.6s 0s ease;
+    -o-transition: background-color 0.6s 0s ease;
+    -webkit-transition: background-color 0.6s 0s ease;
+  }
+}
+
+.btn-group-in {
+  width: 64px;
+  height: 64px;
+  float: left;
+  &:hover {
+    cursor: pointer;
+    -moz-transition: background-color 0.6s 0s ease;
+    -o-transition: background-color 0.6s 0s ease;
+    -webkit-transition: background-color 0.6s 0s ease;
+  }
+}
+
+.btn-login {
+  width: 170px;
+  height: 64px;
+  float: right;
+  padding: 25px 0 0 10px;
+  &:hover {
+    cursor: pointer;
+    -moz-transition: background-color 0.6s 0s ease;
+    -o-transition: background-color 0.6s 0s ease;
+    -webkit-transition: background-color 0.6s 0s ease;
+  }
+}
+
+.btn-logout {
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin-top: 7px;
+  margin-right: 5px;
+  &:hover {
+    background-position: 0 -50px;
+    cursor: pointer;
+  }
+}
+
+.st-profile-user {
+  background: $i32-user no-repeat;
+  background-position: 10px 16px;
+  border-bottom: 2px solid $color_blue;
+  &:hover {
+    background-color: $color_blue;
+  }
+}
+
+.st-profile-dev {
+  background: $i32-dev0 no-repeat;
+  background-position: 10px 16px;
+  border-bottom: 2px solid $color_red;
+  &:hover {
+    background-color: $color_red;
+  }
+}
+
+.st-games {
+  width: 120px;
+  background: $i50-gam0 no-repeat center right;
+  border-bottom: 2px solid $color_yellow;
+  &:hover {
+    background-color: $color_yellow;
+  }
+}
+
+.st-developers {
+  width: 155px;
+  background: $i50-dev0 no-repeat center right;
+  background-position: 100px 6px;
+  border-bottom: 2px solid #51aae8;
+  &:hover {
+    background-color: #51aae8;
+  }
+}
+
+
+
+.st-stars {
+  background: $i32-rew no-repeat;
+  background-position: 10px 16px;
+  border-bottom: 2px solid $color_yellow;
+  &:hover {
+    background-color: $color_yellow;
+  }
+}
+
+.st-rewards {
+  background: $i32-cub0 no-repeat;
+  background-position: 10px 16px;
+  border-bottom: 2px solid #14aa14;
+  &:hover {
+    background-color: #14aa14;
+  }
+}
+
+.st-settings {
+  background: $i32-sett no-repeat;
+  background-position: 5px 16px;
+  border-bottom: 2px solid $color_sett_border;
+  padding-left: 40px;
+  &:hover {
+    background-color: $color_sett;
+  }
+}
+
+.st-group-out {
+  background: $i50-libgdx-gr no-repeat;
+  background-position: 7px 6px;
+  border-bottom: 2px solid #e84e3e;
+  &:hover {
+    background-color: #e84e3e;
+  }
+}
+
+.st-group-in {
+  background: $i50-libgdx-gr no-repeat center;
+  border-bottom: 2px solid #e84e3e;
+  &:hover {
+    background-color: #e84e3e;
+  }
+}
+
+.st-login {
+  background: $i50-vk no-repeat;
+  background-position: 110px 6px;
+  border-bottom: 2px solid #507299;
+  &:hover {
+    background-color: #507299;
+  }
+}
+
+.st-logout {
+  background-image: $i50-logout;
+  background-position: 0 0;
+}

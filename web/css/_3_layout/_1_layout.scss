@@ -1,0 +1,208 @@
+/* --- Site layout --- */
+
+/**
+ * Clearfix tool
+ */
+.clearfix {
+  @include clearfix();
+}
+
+/**
+ * Head Bar Wrapper
+ */
+.head-bar-wrap {
+  width: 100%;
+  height: $bar_size;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: $color_red;
+  box-shadow: $box-shadow-head-bar;
+}
+
+/**
+ * Head Bar
+ */
+.head-bar {
+  width: $site_size;
+  height: $bar_size;
+  margin: 0 auto;
+  padding: 0 $p;
+  box-shadow: $box-shadow-head-bar;
+}
+
+/**
+ * User Bar Wrapper
+ */
+.user-bar-wrap {
+  width: 100%;
+  height: $bar_size;
+  position: fixed;
+  margin: 0 auto;
+  top: $bar_size;
+  z-index: 900;
+  @include clearfix();
+}
+
+/**
+ * User Bar
+ */
+.user-bar {
+  width: $site_size;
+  height: $bar_size;
+  margin: 0 auto;
+  padding: 0 $p;
+  color: $color_white;
+  background-color: $color_dark;
+  box-shadow: $box-shadow-user-bar;
+  @include border-radius-bottom($radius);
+}
+
+/**
+ * Bg Wrapper
+ */
+.bg-wrap {
+  width: $site_size;
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -64px;
+  padding: 138px 0 64px;
+  @include clearfix();
+}
+
+/**
+ * Right-Left Vertical Bar Wrapper
+ */
+.v-bar-wrap {
+  width: $bar_size;
+  min-height: 772px;
+  margin: 0 $m;
+  float: left;
+}
+
+/**
+ * Content Wrapper
+ */
+.content-wrap {
+  width: $content_size;
+  margin: 0 auto;
+}
+
+/**
+ * Content Wrapper for text
+ */
+.content-wrap-text {
+  width: 894px;
+  margin: 0 auto;
+}
+
+/**
+ * Foot Bar Wrapper
+ */
+.foot-bar-wrap {
+  width: 100%;
+  height: $bar_size;
+  position: relative;
+  z-index: 1000;
+  color: $color_white;
+  background-color: $color_dark;
+  box-shadow: $box-shadow-foot-bar;
+  @include clearfix();
+}
+
+/**
+ * Foot Bar
+ */
+.foot-bar {
+  width: $site_size;
+  height: $bar_size;
+  margin: 0 auto;
+  padding: 0 $p;
+}
+
+/**
+ * Copyright Bar Wrapper
+ */
+.cr-bar-wrap {
+  width: 100%;
+  z-index: 0;
+  @include clearfix();
+}
+
+/**
+ * Copyrignt Bar
+ */
+.cr-bar {
+  width: $site_size;
+  height: $copyright_h;
+  line-height: $copyright_h;
+  margin: 0 auto;
+  padding: 0 $p;
+  color: #ccc;
+  a {
+    color: $color_red;
+    &:hover {
+      text-decoration: underline;
+      text-shadow: none;
+      color: $color_red;
+    }
+  }
+}
+
+///////////
+
+.single-page {
+  width: 100%;
+  height: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  @include clearfix();
+}
+.item-page {
+  width: 100%;
+  height: 100%;
+  @include clearfix();
+}
+
+.single-page-block {
+  width: 100%;
+  height: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  @include clearfix();
+  a {
+    color: $color-link-vk;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.single-page-block-text {
+  @extend .single-page-block;
+  padding: 10px;
+}
+
+.single-page-block-text p{
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.block-wrap {
+  width: 100%;
+  height: 100%;
+  margin: 10px 0;
+  @include clearfix();
+}
+
+.news-wrap {
+    width: 264*2px;
+    float: left;
+}
+
+.news-aside-wrap {
+  width: 264px;
+  float: right;
+}

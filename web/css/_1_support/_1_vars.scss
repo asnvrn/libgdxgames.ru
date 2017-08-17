@@ -1,0 +1,111 @@
+// default site width
+$site_size: 980px;
+// default bar height
+$bar_size: 64px;
+// default radius
+$radius: 8px;
+// default margin
+$m: 10px;
+// default padding
+$p: 10px;
+// copyright height
+$copyright_h: 64px;
+// content width
+$content_size: $site_size - $bar_size*2 - $m*4;
+
+// colors
+$color_white: #fff;
+$color_white_vk: #edeef0;
+$color_smoke: #ccc;
+$color_red: #e84e3e; // цвет разработчика
+$color_yellow: #ff7700; // цвет игр
+$color_blue: #51aae8; // цвет пользователя
+$color_green: #14aa14; // цвет наград
+$color_sett: #464646; // цвет настроек
+$color_sett_border: #c8c8c8; // цвет настроек (бордюр)
+$color_dark: #323232;
+$color_gray: #3e4149;
+$color-link-vk: #2a5885;
+
+// box-shadows
+$box-shadow-dark: 0px 16px 32px rgba(0, 0, 0, 0.4);
+$box-shadow-dark-inset: 0px -16px 32px -8px rgba(0, 0, 0, 0.4);
+$box-shadow-head-bar: 0px 0px 64px rgba(0, 0, 0, 0.8);
+$box-shadow-user-bar: 0px 0px 84px rgba(0, 0, 0, 0.8);
+$box-shadow-foot-bar: 0px 0px 128px rgba(0, 0, 0, 0.8);
+$box-shadow-logo: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+$box-shadow-form-elements: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+
+// text-shadow
+$text-shadow-link: 0px 0px 6px rgba(255,255,255,0.7);
+
+// font-family
+$font-body: Verdana, sans-serif;
+
+// font-size
+$font-size-body: 13px;
+$h4: 16px;
+
+// line-height
+$line-height-body: 1;
+$line-height-content: 1.5;
+
+// images
+
+// иконки разработчиков 50х50
+$i50-dev0: url('../img/icons/i50/i50-dev0.png');
+$i50-dev1: url('../img/icons/i50/i50-dev1.png');
+$i50-dev2: url('../img/icons/i50/i50-dev2.png');
+$i50-dev3: url('../img/icons/i50/i50-dev3.png');
+// иконки игр 50х50
+$i50-gam0: url('../img/icons/i50/i50-gam0.png');
+$i50-gam1: url('../img/icons/i50/i50-gam1.png');
+$i50-gam2: url('../img/icons/i50/i50-gam2.png');
+$i50-gam3: url('../img/icons/i50/i50-gam3.png');
+// иконки кубков 50х50
+$i50-cub0: url('../img/icons/i50/i50-cub0.png');
+$i50-cub1: url('../img/icons/i50/i50-cub1.png');
+$i50-cub2: url('../img/icons/i50/i50-cub2.png');
+$i50-cub3: url('../img/icons/i50/i50-cub3.png');
+// иконки разное 50х50
+$i50-user: url('../img/icons/i50/i50-user.png');
+$i50-news: url('../img/icons/i50/i50-news.png');
+$i50-stat: url('../img/icons/i50/i50-stat.png');
+$i50-dev-top: url('../img/icons/i50/i50-dev-top.png');
+$i50-gam-top: url('../img/icons/i50/i50-gam-top.png');
+$i50-question: url('../img/icons/i50/i50-question.png');
+$i50-achi: url('../img/icons/i50/i50-achi.png');
+$i50-star: url('../img/icons/i50/i50-star.png');
+$i50-rat: url('../img/icons/i50/i50-rat.png');
+$i50-activ: url('../img/icons/i50/i50-activ.png');
+
+// иконки разработчиков 32х32
+$i32-dev0: url('../img/icons/i32/i32-dev0.png');
+// иконки игр 32х32
+$i32-gam0: url('../img/icons/i32/i32-gam0.png');
+// иконки кубков 32х32
+$i32-cub0: url('../img/icons/i32/i32-cub0.png');
+// иконки разное 32х32
+$i32-user: url('../img/icons/i32/i32-user.png');
+$i32-u-rang: url('../img/icons/i32/i32-u-rang.png');
+$i32-news: url('../img/icons/i32/i32-news.png');
+$i32-rew: url('../img/icons/i32/i32-rew.png');
+$i32-sett: url('../img/icons/i32/i32-sett.png');
+$i32-stat: url('../img/icons/i32/i32-stat.png');
+$i32-star: url('../img/icons/i32/i32-star.png');
+$i32-rat: url('../img/icons/i32/i32-rat.png');
+$i32-activ: url('../img/icons/i32/i32-activ.png');
+
+// другие иконки
+$i50-logout: url('../img/icons/i50-logout.png');
+$i50-logo: url('../img/icons/i50-logo.png');
+$i200-logo: url('../img/icons/i200-logo.png');
+$i50-vk: url('../img/icons/i50-vk.png');
+$i50-libgdx-gr: url('../img/icons/i50-libgdx-gr.png');
+$i-download-gp: url('../img/icons/i-download-gp.png');
+$i-adm-zone: url('../img/icons/i-adm-zone.png');
+$i20-star: url('../img/icons/i20-star.png');
+$i32-question: url('../img/icons/i32/i32-question.png');
+
+
+$bg-body: url('../img/bg/bg.png');
